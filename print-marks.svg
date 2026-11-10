@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64">
+  <title>唱片印刷部件：实心星、空心星、点线星、闪点、曲序胶囊与横线</title>
+  <defs><path id="star" d="m27 4 6 16 17 1-13 11 4 17-14-10-15 10 5-17L4 21l17-1z"/></defs>
+  <use id="solid" href="#star" fill="currentColor"/>
+  <use id="outline" href="#star" x="60" fill="none" stroke="#0D1A1B" stroke-width="2"/>
+  <use id="dotted" href="#star" x="120" fill="none" stroke="#0D1A1B" stroke-width="2" stroke-dasharray="1 4" stroke-linecap="round"/>
+  <path id="spark" fill="currentColor" d="m207 2 3 21 19 4-19 3-3 22-4-22-18-3 18-4z"/>
+  <g id="track"><path stroke="currentColor" stroke-width="4" d="M244 27h150"/><rect x="265" y="16" width="46" height="22" rx="11" fill="#FEFEFE" stroke="#0D1A1B"/><path stroke="#0D1A1B" d="M288 18v18"/></g>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "counts": [
+      1,
+      2,
+      3
+    ],
+    "aspectRatio": "3:4",
+    "defaultCount": 1,
+    "unspecifiedSeriesCount": 2
+  },
+  "layout": {
+    "default": "05",
+    "catalog": "06",
+    "booklet": "07",
+    "palm": "04"
+  },
+  "colors": {
+    "paper": "#FEFEFE",
+    "ink": "#0D1A1B",
+    "tray": "#BFBCCB"
+  },
+  "fonts": {
+    "display": [
+      "Arial Narrow",
+      "Archivo Narrow",
+      "sans-serif"
+    ],
+    "body": [
+      "Helvetica Neue",
+      "Arial",
+      "sans-serif"
+    ],
+    "chinese": [
+      "PingFang SC",
+      "Source Han Sans SC",
+      "sans-serif"
+    ]
+  },
+  "textRoles": {
+    "spineRotationDeg": 90,
+    "trackLabel": "uppercase",
+    "discCaption": "circular",
+    "trayTitle": "outline"
+  },
+  "accentSelection": "derive one fluorescent HEX from a salient color in the user photos; bind currentColor across the edition"
+}
