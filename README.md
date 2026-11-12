@@ -1,30 +1,17 @@
 # Personal CD Edition
 
-把个人照片做成 1–3 张独立 3:4 CD 周边图，从内容照片选择统一的荧光主色。包含三张灰度版式模板和一张材质与图案关系参考。需要支持参考图片的图像生成或编辑工具。
+固定单张 3:4 个人 CD 套装，原片合成，黑白照片搭配一种素材相关专色。
 
-## 使用
+![固定排版示意](fixed-layout.png)
 
-将整个仓库放入个人技能目录下的 personal-cd-edition 文件夹，保留 PNG 参考文件。
+四个位置固定为左上 CD、右上专辑封面、左中图文歌词卡、下方展开图集与歌名。CD 使用确认无真人脸的素材局部，缺少合适素材时使用纯几何抽象盘面。
 
-> 用 $personal-cd-edition 做两张组图，颜色取自我的照片。
+本版使用 Python 合成原片。需要 Python 3.10+、Pillow 和 numpy；也支持具备原片贴合能力的图层工具。仅支持整图生成的平台无法执行严格的主体保留要求。
 
-> 用 $personal-cd-edition 做一张掌心唱片，按参考 04。
+下载仓库中的 personal-cd-edition.zip，解压后用 personal-cd-edition 文件夹整体替换旧版，上传照片后输入：
 
-掌心模式可上传清晰张开的手掌照。其他内容默认保留可辨认的主体及原有状态，用户可指定创意变化。
+> 用 $personal-cd-edition 做固定单张 CD 套装。
 
-## 参考图
+[下载固定版](https://github.com/1NWZ/personal-cd-edition/raw/refs/heads/main/personal-cd-edition.zip) · [技能说明](SKILL.md) · [配置格式](manifest.md) · [渲染脚本](render.py) · [MIT License](LICENSE)
 
-![套装总览](layout-05.png)
-![开盒陈列](layout-06.png)
-![双跨页](layout-07.png)
-![材质与图案关系](effects.png)
-
-灰度区域是可替换印刷面。调用工具时实际附上本次原图及对应模板，参考图用来控制包装构图与材质。各平台的输入支持和编辑能力会影响结果。
-
-[技能说明](SKILL.md) · [参考用法](design.md) · [MIT License](LICENSE)
-
-## 完成态内页参考
-
-![图文跨页示意](editorial-guide.png)
-
-技能要求在生成前为每件周边分配内容，逐一检查所有展开页是否完成源自用户素材的图文排版。
+旧版的多种排版和空白模板不再用于本版执行。重新安装时请替换整个技能文件夹。
